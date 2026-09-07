@@ -1,0 +1,56 @@
+Store & Products
+
+☐ Public store page loads successfully - Pass
+☐ All available products are displayed - Pass
+☐ Individual product details are displayed correctly - Pass
+
+Authentication & Profile
+
+☐ Customer can register with a valid email and password - Pass
+☐ Registration rejects an invalid email - Pass
+☐ Customer can log in with valid credentials - Pass
+☐ Login rejects invalid credentials - Pass
+☐ Customer can log out - Pass
+☐ Administrator can log out - Pass
+☐ Customer can view their own profile - Pass
+☐ Customer can complete their profile - Pass
+☐ Customer can update their existing profile - Pass
+☐ Customer can delete their own account - Pass
+
+Cart & Checkout
+
+☐ Customer can add a product to the cart - Pass
+☐ Customer can change product quantity - Pass
+☐ Customer can remove a product from the cart - Pass
+☐ Cart total is calculated correctly - Pass
+☐ Cart contents persist after page refresh - Pass
+☐ Authenticated customer can access checkout - Pass
+☐ Customer can place a Cash on Delivery order - Pass
+☐ New order is created with PENDING status - Pass
+☐ Order records products, quantities, prices, total, phone, and address correctly - Pass
+☐ Cart is cleared after a successful order - Pass
+
+Orders
+
+☐ Customer can view their orders - Pass
+☐ Customer can view order information correctly - Pass
+☐ Customer can cancel their own PENDING order - Pass
+☐ Customer cannot cancel a non-PENDING order - Pass
+
+Administration
+
+☐ Administrator can view products - Pass
+☐ Administrator can create a product - Pass
+☐ Administrator can update a product - Pass
+☐ Administrator can delete a product - Pass
+☐ Administrator can view customer accounts - Pass
+☐ Administrator can remove a customer account - Pass
+☐ Administrator can view orders - Pass
+☐ Administrator can change order status - Pass
+
+Build & Deployment
+
+☐ npm install, npm run build, and npm run start complete successfully - Pass
+☐ Application deploys successfully to Vercel and the deployed site is accessible and functional - Pass
+
+Deployment attempts until first successful deployment: 0
